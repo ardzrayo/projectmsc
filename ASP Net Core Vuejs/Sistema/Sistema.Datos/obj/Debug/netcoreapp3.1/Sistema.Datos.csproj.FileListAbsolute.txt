@@ -1,0 +1,5 @@
+C:\Users\Gojira\Desktop\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Debug\netcoreapp3.1\Sistema.Datos.deps.json
+C:\Users\Gojira\Desktop\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Debug\netcoreapp3.1\Sistema.Datos.dll
+C:\Users\Gojira\Desktop\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.csprojAssemblyReference.cache
+C:\Users\Gojira\Desktop\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.AssemblyInfoInputs.cache
+C:\Users\Gojira\Desktop\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.AssemblyInfo.cs

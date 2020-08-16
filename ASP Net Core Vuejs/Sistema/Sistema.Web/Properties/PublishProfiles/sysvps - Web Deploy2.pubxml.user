@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASco8xsMzxEWt+st/jFzV8QAAAAACAAAAAAAQZgAAAAEAACAAAAAOWHSmJM0hCWM9ZvdY7SNkzB0OT1888oq08wk1lwB3QgAAAAAOgAAAAAIAACAAAAAakjaHweZ/B7Rnt7NmL58YC5Pr/RXGkvcSHDdaeziWUIAAAADfQa8wnt8DOc0sToIlFMGlYRlrRn8NMMVdNL+5YWFTlm/w+ZYHrf6DbU7yZ5ng2oTK5+awCXLBAv1R/tAE46qFzUgPAtnisevsIdrA0M8vLi3DMy0RHW4iESBDbZoVeUyVxYHdRjto+tx/Ds5GXij9OGcKqt4fGGviSv6MjuoWtEAAAACUefnko+tFlhYtd1nXKUxCTIUZcQ05fmJ3HPqsU1l4tmfgAv3GrceALcBaxyfDCG/D5v92C/O+7XGx0FcyzDJ/</EncryptedPassword>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\gestorvps</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
