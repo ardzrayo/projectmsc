@@ -20,6 +20,6 @@
     <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" wwwroot_4js_4app_16e136790_1js_1map__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
