@@ -14,3 +14,12 @@ C:\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.
 C:\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfo.cs
 C:\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.dll
 C:\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.deps.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.csprojAssemblyReference.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfoInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.csproj.CoreCompileInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.pdb

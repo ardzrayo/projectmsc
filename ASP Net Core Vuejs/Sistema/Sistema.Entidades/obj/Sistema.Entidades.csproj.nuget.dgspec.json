@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {}
+    "C:\\Proyecto Maestria\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {}
   },
   "projects": {
-    "C:\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+    "C:\\Proyecto Maestria\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectUniqueName": "C:\\Proyecto Maestria\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "projectName": "Sistema.Entidades",
-        "projectPath": "C:\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectPath": "C:\\Proyecto Maestria\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "packagesPath": "C:\\Users\\Gojira\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\obj\\",
+        "outputPath": "C:\\Proyecto Maestria\\ASP Net Core Vuejs\\Sistema\\Sistema.Entidades\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Gojira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -60,12 +55,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x86": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
