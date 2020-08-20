@@ -27,6 +27,7 @@ namespace Sistema.Datos
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Notifivps> Notifivpss { get; set; }
         public DbSet<NotifiHisto> NotifiHistos { get; set; }
+        public DbSet<Periodo> Periodos { get; set; }
         public DbContextSistema(DbContextOptions<DbContextSistema> options) : base(options)
         {
 
@@ -47,6 +48,7 @@ namespace Sistema.Datos
             modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new NotifivpsMap());
             modelBuilder.ApplyConfiguration(new NotifiHistoMap());
+            modelBuilder.ApplyConfiguration(new PeriodoMap());
         }
     }
 }

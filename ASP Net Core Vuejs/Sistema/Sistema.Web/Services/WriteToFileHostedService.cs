@@ -21,41 +21,67 @@ namespace Sistema.Web.Services
         }
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            //Inicia el evento FromSeconds(60));
-            timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromDays(1));
+            //Inicia el evento FromSeconds(60))/FromDays(1);
+            timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromSeconds(60));
             return Task.CompletedTask;
 
         }
         private void DoWork(object state)
          {
-            var fechaActual = DateTime.Now;
-            var A = fechaActual.Year;
-            var M = fechaActual.Month;
-            //Realiza la opción principal
-            DateTime fechaEs = new DateTime(A,M,10);
-            DateTime fechaEs2 = new DateTime(A, M, 12);
-            var resul = fechaActual.CompareTo(fechaEs);
-            if (fechaActual.ToShortDateString() == fechaEs.ToShortDateString())
+            //var fechaActual = DateTime.Now;
+            //var A = fechaActual.Year;
+            //var M = fechaActual.Month;
+            ////Realiza la opción principal
+            //DateTime fechaEs = new DateTime(A, M, 19);
+            //DateTime fechaEs2 = new DateTime(A, M, 12);
+            //var resul = fechaActual.CompareTo(fechaEs);
+            //if (fechaActual.ToShortDateString() == fechaEs.ToShortDateString())
+            //{
+            //    using (IServiceScope scope = _provider.CreateScope())
+            //    {
+            //        var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
+            //        var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
+            //        //var Dia1 = context.Periodos.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.dia1);
+            //        Correo.ConfigurarMail(CorreosNotifi, 1);
+            //    }
+            //}
+            //else if (fechaActual.ToShortDateString() == fechaEs2.ToShortDateString())
+            //{
+            //    using (IServiceScope scope = _provider.CreateScope())
+            //    {
+            //        var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
+            //        var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
+            //        Correo.ConfigurarMail(CorreosNotifi, 2);
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No paso nada");
+            //}
+            using (IServiceScope scope = _provider.CreateScope())
             {
-                using (IServiceScope scope = _provider.CreateScope())
+                var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
+                var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
+                var Dia1 = context.Periodos.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.dia1).SingleOrDefault();
+                var Dia2 = context.Periodos.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.dia2).SingleOrDefault();
+
+                var fechaActual = DateTime.Now;
+                var A = fechaActual.Year;
+                var M = fechaActual.Month;
+                DateTime fechaEs = new DateTime(A, M, Dia1);
+                DateTime fechaEs2 = new DateTime(A, M, Dia2);
+                if (fechaActual.ToShortDateString() == fechaEs.ToShortDateString())
                 {
-                    var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
-                    var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
                     Correo.ConfigurarMail(CorreosNotifi, 1);
                 }
-            }
-            else if (fechaActual.ToShortDateString() == fechaEs2.ToShortDateString())
-            {
-                using (IServiceScope scope = _provider.CreateScope())
+                else if (fechaActual.ToShortDateString() == fechaEs2.ToShortDateString())
                 {
-                    var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
-                    var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
                     Correo.ConfigurarMail(CorreosNotifi, 2);
                 }
-            }
-            else
-            {
-                Console.WriteLine("No paso nada");
+                else
+                {
+                    Console.WriteLine("No paso nada");
+                }
             }
         }
         public Task StopAsync(CancellationToken cancellationToken)

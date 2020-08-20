@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sistema.Datos;
@@ -8,7 +9,7 @@ using Sistema.Web.Models.Notificaciones.Notifivps;
 
 namespace Sistema.Web.Controllers
 {
-    //[Authorize(Roles = "Administrador,Soporte,Gerente")]
+    [Authorize(Roles = "Administrador,Soporte,Gerente")]
     [Route("api/[controller]")]
     [ApiController]
     public class NotifivpsController : ControllerBase
