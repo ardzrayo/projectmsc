@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Sistema.Datos.Mapping.Notificaciones
 {
-    public class PeriodoMap : IEntityTypeConfiguration<Periodo>
+    public class ConfigMailMap : IEntityTypeConfiguration<ConfigMail>
     {
-        public void Configure(EntityTypeBuilder<Periodo> builder)
+        public void Configure(EntityTypeBuilder<ConfigMail> builder)
         {
-            builder.ToTable("periodo")
+            builder.ToTable("configmail")
                 .HasKey(c => c.idperiodo);
         }
     }

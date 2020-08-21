@@ -16,6 +16,7 @@ import Login from '../components/Login.vue'
 import store from '../store/index'
 import VPS from '../components/VPS.vue'
 import Notifivps from '../components/Notifivps.vue'
+import ConfigMail from '../components/ConfigMail.vue'
 
 Vue.use(Router)
 
@@ -155,6 +156,15 @@ var router = new Router({
       meta:{
         administrador:true,
         soporte:true,
+        gerente:true
+      }
+    },
+    {
+      path: '/configmails',
+      name: 'configmails',
+      component: ConfigMail,
+      meta:{
+        administrador:true,
         gerente:true
       }
     }
