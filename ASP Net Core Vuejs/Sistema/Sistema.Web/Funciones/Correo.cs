@@ -11,7 +11,7 @@ namespace Sistema.Web.Funciones
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("angrdzrayo@gmail.com", "Die22coK");
+            smtp.Credentials = new System.Net.NetworkCredential("angrdzrayo@gmail.com", "Password");
             smtp.EnableSsl = true;
         }
         /*
