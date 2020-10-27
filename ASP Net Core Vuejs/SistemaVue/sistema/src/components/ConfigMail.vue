@@ -34,7 +34,7 @@
                                           <v-text-field v-model="asunto" label="Asunto..."></v-text-field>
                                       </v-flex>
                                       <v-flex xs12 sm12 md12>
-                                          <v-text-field v-model="cuerpomail" label="Cuerpo..."></v-text-field>
+                                          <v-textarea v-model="cuerpomail" label="Cuerpo..."></v-textarea>
                                       </v-flex>
                                       <v-flex xs12 sm12 md12 v-show="valida">
                                           <div class="red--text" v-for="v in validaMensaje" :key="v" v-text="v">
@@ -54,10 +54,7 @@
                   </v-toolbar>
               </template>
 
-              <template v-slot:item.estado="{ item }">
-                  <v-card-text v-if="item.estado" class="blue--text">Activo</v-card-text>
-                  <v-card-text v-if="!item.estado" class="red--text">Inactivo</v-card-text>
-              </template>
+              
 
               <template v-slot:item.opciones="{ item }">
                   <v-icon
@@ -88,8 +85,7 @@
                   { text: 'Nombre Notificación', value: 'nameperiodo', sortable: false},
                   { text: 'Dia de Notificación', value: 'dia'},
                   { text: 'Asunto...', value: 'asunto', sortable: false},
-                  { text: 'Cuerpo del mensaje', value: 'cuerpomail', sortable: false},
-                  { text: 'Estado', value: 'estado' },                
+                  { text: 'Cuerpo del mensaje', value: 'cuerpomail', sortable: false},              
                 ],
                 search: '',
                 editedIndex: -1,

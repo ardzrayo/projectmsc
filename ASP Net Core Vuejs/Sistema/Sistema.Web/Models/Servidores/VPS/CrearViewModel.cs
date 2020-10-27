@@ -1,13 +1,10 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace Sistema.Web.Models.Servidores.VPS
 {
     public class CrearViewModel
     {
         public int idclient { get; set; }
-        [Required(ErrorMessage = "Ingrese un nombre vps.")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "El nombre no debe tener más de 50 caracteres, ni menos de 3 caracteres.")]
         public string vmname { get; set; }
         public string vm_uuid { get; set; }
         public int vcpus { get; set; }
@@ -27,6 +24,6 @@ namespace Sistema.Web.Models.Servidores.VPS
         public int idvmtype { get; set; }
         public int idpool { get; set; }
         public string notes { get; set; }
-        public int rmtaccesssal { get; set; }
+        public int? rmtaccesssal { get; set; }
     }
 }

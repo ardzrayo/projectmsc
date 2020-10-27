@@ -20,43 +20,41 @@
                     <v-spacer></v-spacer>
                     <v-dialog v-model="dialog" max-width="500px">
                         <template v-slot:activator="{ on }">
-                        <v-btn color="primary" dark class="mb-2" v-on="on">Nuevo</v-btn>
+                          <v-btn color="primary" dark class="mb-2" v-on="on">Nuevo</v-btn>
                         </template>
                         <v-card>
                             <v-card-title>
-                            <span class="headline">{{ formTitle }}</span>
+                              <span class="headline">{{ formTitle }}</span>
                             </v-card-title>
-
-
-
                         <v-card-text>
                             <v-container>
-                            <v-row>
-                                <v-layout wrap>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="clientname" label="Cliente"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="clientfullname" label="Nombre Completo"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="clientemail" label="Email"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="clientphone" label="Teléfono"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="clientcontact" label="Contacto Técnico"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12>
-                                <v-text-field v-model="emailcontact_tecnico" label="Email Contacto Técnico"></v-text-field>
-                                </v-flex>
-                                <v-flex xs12 sm12 md12 v-show="valida">
-                                <div class="red--text" v-for="v in validaMensaje" :key="v" v-text="v">
-                                </div>
-                                </v-flex>
-                                </v-layout>
-                            </v-row>
+                              <p class="blue--text">*El nombre de cliente debe ser unico</p>
+                              <v-row>
+                                  <v-layout wrap>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="clientname" label="Cliente"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="clientfullname" label="Nombre Completo"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="clientemail" label="Email"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="clientphone" label="Teléfono"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="clientcontact" label="Contacto Técnico"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12>
+                                  <v-text-field v-model="emailcontact_tecnico" label="Email Contacto Técnico"></v-text-field>
+                                  </v-flex>
+                                  <v-flex xs12 sm12 md12 v-show="valida">
+                                  <div class="red--text" v-for="v in validaMensaje" :key="v" v-text="v">
+                                  </div>
+                                  </v-flex>
+                                  </v-layout>
+                              </v-row>
                             </v-container>
                         </v-card-text>
 
@@ -267,9 +265,18 @@
             validar(){
               this.valida=0;
               this.validaMensaje=[];
-
+              if(!this.clientname){
+                this.validaMensaje.push("Por favor, ingrese un nombre de cliente unico.");
+              }
               if(this.clientname.length<3 || this.clientname.length>50){
                 this.validaMensaje.push("El nombre debe tener más de 3 caracteres y menos de 50 caracteres");
+              }
+              //Corregir
+              if(!this.clientcontact){
+                this.validaMensaje.push("Por favor, ingresa un nombre de contacto.");
+              }
+              if(!this.emailcontact_tecnico){
+                this.validaMensaje.push("Por favor, ingresa un email de contacto.");
               }
               if(this.validaMensaje.length){
                 this.valida=1;

@@ -31,3 +31,39 @@ C:\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sist
 C:\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.csproj.CopyComplete
 C:\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.dll
 C:\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\appsettings.Development.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Properties\launchSettings.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\appsettings.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\hostpolicy.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\hostfxr.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.exe
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.deps.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.runtimeconfig.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.runtimeconfig.dev.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.Views.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Web.Views.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Datos.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Entidades.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Datos.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\bin\Release\netcoreapp2.1\win-x86\Sistema.Entidades.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.csprojAssemblyReference.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.AssemblyInfoInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.AssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.csproj.CoreCompileInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.RazorAssemblyInfo.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.RazorAssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\UserSecretsAssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.TagHelpers.input.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.TagHelpers.output.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.RazorCoreGenerate.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Home\Index.cshtml.g.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.RazorTargetAssemblyInfo.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.RazorTargetAssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.Views.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.csproj.CopyComplete
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Release\netcoreapp2.1\win-x86\Sistema.Web.genruntimeconfig.cache

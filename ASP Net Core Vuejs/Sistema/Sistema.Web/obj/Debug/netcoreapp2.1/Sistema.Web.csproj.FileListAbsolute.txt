@@ -81,3 +81,4 @@ C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp
 C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.pdb
 C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.genruntimeconfig.cache
 C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.csproj.CoreCompileInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

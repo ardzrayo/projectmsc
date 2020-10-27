@@ -37,7 +37,7 @@ namespace Sistema.Web.Models.Servidores.VPS
         public int idpool { get; set; }
         public string pools { get; set; }
         public string notes { get; set; }
-        public int rmtaccesssal { get; set; }
+        public int? rmtaccesssal { get; set; }
         public bool estado { get; set; }
     }
 }

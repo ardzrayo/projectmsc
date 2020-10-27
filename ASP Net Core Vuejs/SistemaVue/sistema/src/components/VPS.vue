@@ -584,18 +584,47 @@
             validar(){
               this.valida=0;
               this.validaMensaje=[];
-
+              if(!this.idclient){
+                this.validaMensaje.push("Seleeciona un cliente.");
+              }
               if(this.vmname.length<2 || this.vmname.length>100){
                 this.validaMensaje.push("El nombre debe tener más de 3 caracteres y menos de 100 caracteres.");
               }
-              if(!this.idclient){
-                this.validaMensaje.push("Seleeciona un rol.");
+              if(!this.vm_uuid){
+                this.validaMensaje.push("Ingrese numero UUID.");
+              }
+              if(!this.vcpus){
+                this.validaMensaje.push("Ingrese numero de CPU's.");
+              }
+              if(!this.ram){
+                this.validaMensaje.push("Ingrese memoria RAM.");
+              }
+              if(!this.hdisk){
+                this.validaMensaje.push("Ingrese espacio de almacenamiento.");
               }
               if(!this.idnw){
-                this.validaMensaje.push("Ingrese un NB.");
+                this.validaMensaje.push("Ingrese un NetwokBond.");
+              }
+              if(!this.idos){
+                this.validaMensaje.push("Ingrese un Sistema operativo.");
+              }
+              if(!this.idversion){
+                this.validaMensaje.push("Ingrese una version del sistema.");
+              }
+              if(!this.internal_ip){
+                this.validaMensaje.push("Ingrese una dirección IP privada.");
+              }
+              if(!this.external_ip){
+                this.validaMensaje.push("Ingrese una dirección IP pública.");
               }
               if(!this.idusuario){
                 this.validaMensaje.push("Ingrese Creador.");
+              }
+              if(!this.idvmtype){
+                this.validaMensaje.push("Ingrese un tipo de maquina.");
+              }
+              if(!this.idusuario){
+                this.validaMensaje.push("Ingrese un Pool.");
               }
               if(this.validaMensaje.length){
                 this.valida=1;

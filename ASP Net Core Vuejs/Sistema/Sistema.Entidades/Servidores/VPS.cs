@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.ComponentModel.DataAnnotations;
 using Sistema.Entidades.Clientes;
 using Sistema.Entidades.Consumibles;
@@ -12,6 +10,7 @@ namespace Sistema.Entidades.Servidores
     {
         public int idvps { get; set; }
         public int idclient { get; set; }
+        [Required]
         public string vmname { get; set; }
         public string vm_uuid { get; set; }
         public int vcpus { get; set; }
@@ -31,7 +30,7 @@ namespace Sistema.Entidades.Servidores
         public int idvmtype { get; set; }
         public int idpool { get; set; }
         public string notes { get; set; }
-        public int rmtaccesssal { get; set; }
+        public int? rmtaccesssal { get; set; }
         public bool estado { get; set; }
         public virtual VMClient vmclient { get; set; }
         public virtual NetworkBond networkbond { get; set; }

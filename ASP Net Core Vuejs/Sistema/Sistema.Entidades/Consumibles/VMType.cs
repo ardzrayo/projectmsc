@@ -7,8 +7,8 @@ namespace Sistema.Entidades.Consumibles
     public class VMType
     {
         public int idvmtype { get; set; }
-        [Required(ErrorMessage = "Ingrese un tipo de maquina virtual.")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "El nombre no debe tener más de 50 caracteres, ni menos de 3 caracteres.")]
+        [Required]
+        [StringLength(50, MinimumLength = 3)]
         public string vmtypename { get; set; }
         public string vmtypedescription { get; set; }
         public bool vmtypeestado { get; set; }

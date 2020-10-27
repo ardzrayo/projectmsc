@@ -12,7 +12,7 @@ using Sistema.Web.Models.Servidores.VPS;
 
 namespace Sistema.Web.Controllers
 {
-    //[Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Administrador")]
     [Route("api/[controller]")]
     [ApiController]
     public class VPSsController : ControllerBase

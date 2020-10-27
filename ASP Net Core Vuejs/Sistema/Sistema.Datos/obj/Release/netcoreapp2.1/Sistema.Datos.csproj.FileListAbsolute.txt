@@ -11,3 +11,18 @@ C:\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Da
 C:\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.csproj.CopyComplete
 C:\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.dll
 C:\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Datos.deps.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Datos.runtimeconfig.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Datos.runtimeconfig.dev.json
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Datos.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Datos.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Entidades.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\bin\Release\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.csprojAssemblyReference.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.AssemblyInfoInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.AssemblyInfo.cs
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.csproj.CoreCompileInputs.cache
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.csproj.CopyComplete
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.dll
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.pdb
+C:\Proyecto Maestria\ASP Net Core Vuejs\Sistema\Sistema.Datos\obj\Release\netcoreapp2.1\Sistema.Datos.genruntimeconfig.cache

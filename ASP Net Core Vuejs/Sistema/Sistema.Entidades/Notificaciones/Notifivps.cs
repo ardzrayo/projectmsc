@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Sistema.Entidades.Notificaciones
 {
     public class Notifivps
@@ -14,6 +11,5 @@ namespace Sistema.Entidades.Notificaciones
         public string clientcontact { get; set; }
         public string emailcontact_tecnico { get; set; }
         public bool estado { get; set; }
-        public ICollection<NotifiHisto> notifihisto { get; set; }
     }
 }

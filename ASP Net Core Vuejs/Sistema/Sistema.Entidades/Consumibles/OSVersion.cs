@@ -8,8 +8,8 @@ namespace Sistema.Entidades.Consumibles
     {
         public int idversion { get; set; }
         public int idos { get; set; }
-        [Required(ErrorMessage = "Ingrese un nombre de Network Bond.")]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "El nombre no debe tener más de 50 caracteres, ni menos de 3 caracteres.")]
+        [Required]
+        [StringLength(50, MinimumLength = 3)]
         public string osversion { get; set; }
         public string descripcion { get; set; }
         public bool estado { get; set; }

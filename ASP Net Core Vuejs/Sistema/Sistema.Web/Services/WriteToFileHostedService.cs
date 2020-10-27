@@ -92,31 +92,49 @@ namespace Sistema.Web.Services
 
             using (IServiceScope scope = _provider.CreateScope())
             {
-                var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
-                var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
-                var Dia1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.dia).SingleOrDefault();
-                var Dia2 = context.ConfigMails.Where(x => x.idperiodo == 2).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.dia).SingleOrDefault();
-                var Asunto1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.asunto).SingleOrDefault();
-                var Asunto2 = context.ConfigMails.Where(x => x.idperiodo == 2).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.asunto).SingleOrDefault();
-                var CuerpoMail1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.cuerpomail).SingleOrDefault();
-                var CuerpoMail2 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.cuerpomail).SingleOrDefault();
+                try
+                {
+                    var context = scope.ServiceProvider.GetRequiredService<DbContextSistema>();
+                    var CorreosNotifi = context.Notifivpss.Where(x => x.estado == true).Select(x => x).Where(xt => xt.idnotivps > 0).Select(x => x.emailcontact_tecnico).ToList();
+                
+                    var Dia1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.dia).SingleOrDefault();
+                    var Dia2 = context.ConfigMails.Where(x => x.idperiodo == 2).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.dia).SingleOrDefault();
+                    var Dia3 = context.ConfigMails.Where(x => x.idperiodo == 3).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.dia).SingleOrDefault();
 
-                var fechaActual = DateTime.Now;
-                var A = fechaActual.Year;
-                var M = fechaActual.Month;
-                DateTime fechaEs = new DateTime(A, M, Dia1);
-                DateTime fechaEs2 = new DateTime(A, M, Dia2);
-                if (fechaActual.ToShortDateString() == fechaEs.ToShortDateString())
-                {
-                    Correo.ConfigurarMail(CorreosNotifi,Asunto1,CuerpoMail1,1);
+                    var Asunto1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.asunto).SingleOrDefault();
+                    var Asunto2 = context.ConfigMails.Where(x => x.idperiodo == 2).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.asunto).SingleOrDefault();
+                    var Asunto3 = context.ConfigMails.Where(x => x.idperiodo == 3).Select(x => x).Where(xt => xt.idperiodo > 1).Select(x => x.asunto).SingleOrDefault();
+
+                    var CuerpoMail1 = context.ConfigMails.Where(x => x.idperiodo == 1).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.cuerpomail).SingleOrDefault();
+                    var CuerpoMail2 = context.ConfigMails.Where(x => x.idperiodo == 2).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.cuerpomail).SingleOrDefault();
+                    var CuerpoMail3 = context.ConfigMails.Where(x => x.idperiodo == 3).Select(x => x).Where(xt => xt.idperiodo > 0).Select(x => x.cuerpomail).SingleOrDefault();
+
+                    var fechaActual = DateTime.Now;
+                    var A = fechaActual.Year;
+                    var M = fechaActual.Month;
+                    DateTime fechaEs = new DateTime(A, M, Dia1);
+                    DateTime fechaEs2 = new DateTime(A, M, Dia2);
+                    DateTime fechaEs3 = new DateTime(A, M, Dia3);
+                    if (fechaActual.ToShortDateString() == fechaEs.ToShortDateString())
+                    {
+                        Correo.ConfigurarMail(CorreosNotifi,Asunto1,CuerpoMail1,1);
+                    }
+                    else if (fechaActual.ToShortDateString() == fechaEs2.ToShortDateString())
+                    {
+                        Correo.ConfigurarMail(CorreosNotifi,Asunto2,CuerpoMail2,1);
+                    }
+                    else if (fechaActual.ToShortDateString() == fechaEs3.ToShortDateString())
+                    {
+                        Correo.ConfigurarMail(CorreosNotifi, Asunto3, CuerpoMail3, 1);
+                    }
+                    else
+                    {
+                        Console.WriteLine("No paso nada");
+                    }
                 }
-                else if (fechaActual.ToShortDateString() == fechaEs2.ToShortDateString())
+                catch (Exception ex)
                 {
-                    Correo.ConfigurarMail(CorreosNotifi,Asunto2,CuerpoMail2,2);
-                }
-                else
-                {
-                    Console.WriteLine("No paso nada");
+
                 }
             }
 

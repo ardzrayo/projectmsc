@@ -13,6 +13,7 @@ namespace Sistema.Entidades.Clientes
         public string clientfullname { get; set; }
         public string clientemail { get; set; }
         public string clientphone { get; set; }
+        [Required]
         public string clientcontact { get; set; }
         [Required]
         [EmailAddress]

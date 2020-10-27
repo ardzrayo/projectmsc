@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../views/Home.vue'
-import Cliente from '../components/Cliente.vue'
 import VMClient from '../components/VMClient.vue'
 import NetworkBond from '../components/NetworkBond.vue'
 import OSFamily from '../components/OSFamily.vue'
@@ -28,16 +27,6 @@ var router = new Router({
       path: '/',
       name: 'home',
       component: Home,
-      meta:{
-        administrador:true,
-        soporte:true,
-        gerente:true
-      }
-    },
-    {
-      path: '/clientes',
-      name: 'clientes',
-      component: Cliente,
       meta:{
         administrador:true,
         soporte:true,

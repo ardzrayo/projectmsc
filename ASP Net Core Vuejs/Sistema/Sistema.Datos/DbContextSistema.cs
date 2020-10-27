@@ -26,7 +26,6 @@ namespace Sistema.Datos
         public DbSet<Rol> Rols { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Notifivps> Notifivpss { get; set; }
-        public DbSet<NotifiHisto> NotifiHistos { get; set; }
         public DbSet<Periodo> Periodos { get; set; }
         public DbSet<ConfigMail> ConfigMails { get; set; }
         public DbContextSistema(DbContextOptions<DbContextSistema> options) : base(options)
@@ -48,7 +47,6 @@ namespace Sistema.Datos
             modelBuilder.ApplyConfiguration(new RolMap());
             modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new NotifivpsMap());
-            modelBuilder.ApplyConfiguration(new NotifiHistoMap());
             modelBuilder.ApplyConfiguration(new PeriodoMap());
             modelBuilder.ApplyConfiguration(new ConfigMailMap());
         }

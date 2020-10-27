@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>b7f95c09-093e-4bcc-910c-68017818d17f</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +32,6 @@
     <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" wwwroot_4js_4app_16e136790_1js_1map__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

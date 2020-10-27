@@ -60,7 +60,7 @@ export default {
                 }else{
                     this.error="Ocurrio un error."
                 }
-                console.log(err)
+                //console.log(err)
             })
         }
     }
